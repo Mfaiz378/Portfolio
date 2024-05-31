@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiz's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: azure;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: cadetblue;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(104, 104, 223);
+            font-size: 1.04 rem;
+        }
+
+        main hr {
+            border: 0;
+            height: 2px;
+            background-color: azure;
+            margin: 60px 80px;
+            align-items: center;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 135px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            /* background-color: red; */
+            font-size: 2.5rem;
+            margin: 70px 0;
+
+        }
+        .leftSection .space{
+            height: 40px;
+        }
+        .leftSection .btn{
+            font-size: 20px;
+            background: rgb(50, 186, 231);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            cursor: pointer;
+            padding: 12px;
+        }
+    
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(192, 153, 228);
+        }
+
+        #element {
+            color: rgb(192, 153, 228);
+        }
+
+        .secondSection {
+            max-width: 75vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: azure;
+            width: 60vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 25px;
+            background-color: white;
+            margin: 0px 120px;
+            width: 2px;
+        }
+
+        .image-top {
+            width: 40px;
+            /* height: 2px; */
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 175px;
+            left: 1.5rem;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            font-size: 12px;
+            position: relative;
+            top: 18px;
+            left: .5rem;
+            width: 150px;
+            color: rgb(209, 119, 119);
+        }
+
+        footer {
+            background-color: rgb(39, 36, 39);
+            height: 25px, 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px, 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer .ul {
+            list-style: none;
+        }
+
+        .footer-second {
+            display: flex;
+            height: 25px;
+        }
+
+        .footer-rights {
+            color: #769288;
+            justify-content: center;
+        }
+
+         p{
+            color: #769288;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Faiz's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi My name is <span class="purple">Faiz</span>
+
+            <div>I am Passionate</div>
+                <span id="element"></span> <!-- typed js animate   -->
+                <div class="space"></div>
+            <div class="buttons">
+              <button class="btn"><a onclick="location.href='Resume.pdf.pdf'">Download Resume</a> </button>
+                <button class="btn"><a onclick="location.href='https://github.com/Mfaiz378?tab=repositories'">Visit Github</a></button>
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="F.png" alt="">
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray"><h3>What I have done </h3></span>
+            <h1> Languages known</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="java.png" alt="" class="image-top">
+
+                    <div class="verical-title">
+                        Java Developer
+                    </div>
+                    <div class="vertical-desc">
+                        I have core knowledge of java and data structures..
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="web.png" alt="" class="image-top">
+                    <div class="verical-title">
+                        Web Developer
+                    </div>
+                    <div class="vertical-desc">
+                        I have knowledge of front end languages Html,css and javascript,
+                        with core knowledge of backend nodejs, mongodb,php, react..
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="py.png" alt="" class="image-top">
+                    <div class="verical-title">
+                         Python
+                    </div>
+                    <div class="vertical-desc">
+                      Basics of python with oops concepts..
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="download.jpeg" alt="" class="image-top">
+                    <div class="verical-title">
+                         Machine Learning
+                    </div>
+                    <div class="vertical-desc">
+                      Prior Knowledge and Basics of ML 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Faiz's Developer Portfolio</h3>
+            </div>
+        </div>
+        <div class="footer-rights">
+              <p>www.faizportfolio.com | All rights reserved</p> 
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' A programmer', ' and a learner'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
