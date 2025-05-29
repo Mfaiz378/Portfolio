@@ -1,104 +1,548 @@
-#last{
-	width: 100%;
-	height: auto;
-	justify-content: center;
-	background-color: #ffb3b3;
-	}
-	.full{
-	width: 80%;
-	display: inline-block;
-	margin:2%;
-	margin-left: 10%;
-	text-align: center;
-	background-color: black;
-	color: white;
-	border:15px solid orange;
-	border-radius: 5px;
-	margin-bottom: 8%;
-	margin-top: 8%;
-	}
-	.full h3{
-	font-size: 2rem;
-	display:block;
-	margin: 2%;
-	margin-bottom: 0;
-	}
-	.lt{
-	padding: 2%;
-	margin: 2%;
-	}
-	.rt{
-	padding: 2%;
-	margin: 2%;
-	}
-	.lt textarea{
-	width: 94%;
-	margin-left: 2.8%;
-	}
-	button{
-	margin: 2%;
-	}
-	.btn-primary{
-	background-color: black;
-	border: 2px solid white;
-	border-radius: 5%;
-	}
-	.list-item{
-	margin-bottom: 2%;
-	list-style-type: none;
-	}
-	.list-item span{
-	margin-left: 10px;
-	font-size: 1.4rem;
-	}
-	.list-item a{
-	color: white;
-	display: inline-block;
-	}
-	.list-item a:hover{
-	text-decoration: underline;
-	}
-	.form-control{
-	background-color: black;
-	}
-		
-	@media screen and (min-width: 770px){
-	.full{
-		width: 70%;
-		margin-left: 15%;
-	}
-	.lt textarea{
-	width: 95%;
-	margin-left: 2.4%;
-	}
-	}
-		
-	@media screen and (min-width: 1100px){
-	.full{
-		width: 65%;
-		margin-left: 17%;
-		margin-top: 5%;
-	}
-	.lt{
-		width: 55%;
-		display: inline-block;
-		float: left;
-		margin-right: 0;
-	}
-	.rt{
-		width: 35%;
-		display: inline-block;
-		margin-left: 0;
-	}
-	.list-item{
-	margin-bottom: 10%;
-	}
-	.contact-list{
-		margin-top: 22%;
-		padding-right: 8%;
-	}
-	.fa-envelope, .gmail{
-		display: inline-block;
-		width: auto;
-	}
-	}
+/* Global Styles & Mobile First Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6; /* Light gray background */
+    color: #333; /* Dark gray text */
+    /* Removed body padding: 15px; to allow full-width header/footer */
+}
+
+/* General Typography & Elements */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 2rem auto;
+    max-width: 90%;
+}
+
+/* Shared Page Headers (About, Project pages) */
+/* For pages that have a simple centered title header */
+body > header.page-title-header { /* Add class .page-title-header to About/Project headers */
+    background-color: #007bff;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+body > header.page-title-header h1 {
+    color: white;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+/* Main content wrapper for generic pages like About, Project */
+main.page-content {
+    padding: 1rem;
+    max-width: 900px;
+    margin: 0 auto 2rem auto;
+}
+
+/* Navigation Bar (Primarily for index.html) */
+header > nav {
+    background-color: #343a40; /* Dark background */
+    padding: 1rem 5%; /* Use percentage for responsive padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens before full stack */
+}
+
+header > nav .left { /* Portfolio Title */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+header > nav .right ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0; /* Reset margin for ul */
+    padding: 0; /* Reset padding for ul */
+}
+
+header > nav .right ul li {
+    margin-left: 20px;
+}
+
+header > nav .right ul li a {
+    color: #f8f9fa; /* Light color for links */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header > nav .right ul li a:hover,
+header > nav .right ul li a.active { /* Add .active class for current page if desired */
+    color: #007bff; /* Accent color on hover */
+}
+
+/* Index Page Specific Styles */
+
+/* First Section (Hero) */
+.firstSection {
+    display: flex;
+    align-items: center;
+    padding: 3rem 5%; /* More padding for hero */
+    background-color: #ffffff; /* White background for this section */
+    flex-wrap: wrap; /* Stack on smaller screens */
+    gap: 2rem; /* Space between left and right sections when wrapped */
+}
+
+.firstSection .leftSection,
+.firstSection .rightSection {
+    flex: 1;
+    min-width: 300px; /* Minimum width before stacking */
+}
+
+.firstSection .leftSection {
+    font-size: 1.8rem; /* Base size for "Hi My name is..." */
+    padding-right: 2rem; /* Space from image on larger screens */
+}
+
+.firstSection .leftSection .purple {
+    color: #007bff; /* Theme accent */
+    font-weight: bold;
+}
+
+.firstSection .leftSection div:not(.space):not(.buttons) { /* For "I am passionate" */
+    font-size: 1.5rem; /* Slightly smaller */
+    margin: 0.5rem 0;
+}
+
+#element { /* Typed.js target */
+    color: #0056b3; /* Darker accent */
+    font-weight: bold;
+}
+
+.firstSection .leftSection .space {
+    height: 20px; /* Reduced space */
+}
+
+.firstSection .leftSection .buttons .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    text-decoration: none; /* Ensure anchor inside button doesn't get underline */
+    display: inline-block; /* For proper padding */
+}
+.firstSection .leftSection .buttons .btn a { /* Style anchor inside button */
+    color: white;
+    text-decoration: none;
+}
+
+
+.firstSection .leftSection .buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+.firstSection .rightSection img { /* F.png */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Second Section (Skills/Languages Known) */
+.secondSection {
+    padding: 3rem 5%;
+    text-align: center;
+}
+
+.secondSection .text-gray h3 { /* "What I have done" */
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    font-weight: normal;
+}
+
+.secondSection > h1 { /* "Languages known" - direct child h1 */
+    font-size: 2.25rem;
+    color: #0056b3;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.secondSection .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem; /* Space between skill cards */
+}
+
+.secondSection article.vertical { /* Skill card */
+    background: #ffffff;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    flex-basis: 260px; /* Base width for cards */
+    flex-grow: 1;
+    max-width: 300px; /* Max width for cards */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.secondSection article.vertical:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.secondSection .image-top { /* Skill icon */
+    width: 50px; /* Slightly smaller icons */
+    height: 50px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
+
+.secondSection .vertical-title { /* Skill title */
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+.secondSection .vertical-desc { /* Skill description */
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Footer (Common for index.html, potentially others) */
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 2.5rem 5%;
+    text-align: center;
+}
+
+footer .footer { /* Inner div */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+footer .footer-first h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+footer .footer-rights p {
+    font-size: 0.9rem;
+    color: #adb5bd; /* Lighter text for copyright */
+}
+footer .footer-rights p a { /* If links in footer */
+    color: #007bff;
+}
+
+
+/* About Page Specifics */
+.academics-section, .skills-section {
+    background: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem; /* Use margin on bottom of sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.academics-section h2, .skills-section h2 {
+    color: #0056b3;
+    margin-bottom: 1.5rem; /* More space under section titles */
+    font-size: 1.8rem;
+}
+
+.academics-section ul, .skills-section ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;
+}
+
+.academics-section ul li p, .skills-section ul li p {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* Project Page Specifics */
+article.project-item {
+    background: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem; /* Use margin on bottom of articles */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+article.project-item h2 {
+    margin-bottom: 0.75rem;
+}
+
+article.project-item h2 a {
+    color: #0056b3;
+    font-size: 1.6rem; /* Larger project titles */
+}
+
+article.project-item p {
+    line-height: 1.7;
+    color: #333;
+}
+
+/* Contact Page Styles (from previous turn, integrated and checked for consistency) */
+#last { /* This is the <main> element on Contact.html */
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 0; /* Vertical padding */
+}
+
+.full { /* Wrapper div inside main on Contact.html */
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+.full h1 { /* "Drop a Message" on Contact.html */
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 0; /* Removed extra padding */
+    color: #0056b3;
+}
+
+.lt, .rt { /* Form and Contact Info columns on Contact.html */
+    padding: 15px;
+}
+
+.form-group { margin-bottom: 1rem; }
+
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
+}
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+textarea.form-control { min-height: 120px; }
+
+.btn-primary.send-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-primary.send-button .fa { margin-right: 8px; }
+.btn-primary.send-button:hover { background-color: #0056b3; }
+
+.contact-list { list-style-type: none; padding-left: 0; margin-top: 10px; }
+.contact-list .list-item {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+}
+.contact-list .list-item .fa {
+    color: #007bff;
+    margin-right: 12px;
+    width: 20px;
+    text-align: center;
+}
+.contact-list .list-item .contact-text a { color: #007bff; }
+.contact-list .list-item .contact-text a:hover { text-decoration: underline; }
+
+
+/* Responsive Adjustments */
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    /* Nav */
+    header > nav {
+        padding: 1rem 5%; /* Restore more horizontal padding */
+    }
+    header > nav .right ul {
+        flex-direction: row; /* Horizontal links */
+        width: auto;
+        margin-top: 0;
+    }
+    header > nav .right ul li {
+        margin-left: 20px;
+        margin-bottom: 0;
+        width: auto;
+        text-align: left;
+        background: transparent;
+        padding: 0;
+    }
+
+    /* Hero */
+    .firstSection .leftSection {
+        font-size: 2rem; /* Slightly larger base for hero text */
+        text-align: left;
+    }
+    .firstSection .leftSection .buttons {
+        text-align: left; /* Align buttons left on larger screens */
+    }
+     .firstSection .rightSection {
+        text-align: right; /* Align image to the right */
+    }
+
+
+    /* Skills */
+    .secondSection article.vertical {
+        flex-basis: 220px; /* Adjust basis for 3-columnish */
+    }
+
+    /* Contact Page */
+    .full { /* Wrapper on Contact Page */
+        width: 85%;
+        padding: 30px;
+    }
+    .full h1 { font-size: 2.25rem; } /* Contact page heading */
+    .rt h2 { font-size: 1.75rem; } /* Contact info heading */
+
+}
+
+/* Small Desktop */
+@media screen and (min-width: 992px) {
+    header > nav { padding: 1rem 10%; } /* More padding for desktop nav */
+    .firstSection { padding: 4rem 10%; }
+    .secondSection { padding: 4rem 10%; }
+    footer { padding: 3rem 10%; }
+
+    .secondSection article.vertical {
+        flex-basis: 280px; /* Allow more space for cards */
+    }
+    
+    /* Contact Page */
+    .full { /* Wrapper on Contact Page */
+        width: 80%;
+        max-width: 960px;
+        padding: 40px;
+    }
+}
+
+/* Large Desktops */
+@media screen and (min-width: 1200px) {
+    header > nav { padding: 1.5rem 15%; }
+    .firstSection { padding: 5rem 15%; }
+    .secondSection { padding: 5rem 15%; }
+    footer { padding: 3.5rem 15%; }
+
+    .secondSection article.vertical {
+        flex-basis: 300px;
+    }
+
+    /* Contact Page */
+    .full { /* Wrapper on Contact Page */
+        max-width: 1100px;
+    }
+}
+
+/* Mobile Nav Specific (Overrides for stacking nav items) */
+@media screen and (max-width: 767.98px) {
+    header > nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header > nav .right {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    header > nav .right ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    header > nav .right ul li {
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+    header > nav .right ul li a {
+        display: block; /* Make links take full width */
+        padding: 0.75rem;
+        text-align: center;
+        background-color: #495057; /* Darker background for stacked links */
+        border-radius: 4px;
+        width: 100%;
+    }
+    header > nav .right ul li a:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .firstSection {
+        padding: 2rem 5%;
+        text-align: center; /* Center hero content on mobile */
+    }
+    .firstSection .leftSection {
+        padding-right: 0; /* No padding needed when stacked */
+        font-size: 1.5rem;
+    }
+     .firstSection .leftSection .buttons {
+        text-align: center; /* Center buttons on mobile */
+    }
+    .firstSection .leftSection .buttons .btn {
+        width: 80%; /* Make buttons take more width */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .firstSection .rightSection {
+        margin-top: 2rem; /* Space above image when stacked */
+    }
+    .secondSection > h1 { font-size: 1.8rem; } /* Smaller heading on mobile */
+    body > header.page-title-header h1 { font-size: 2rem; } /* Smaller general page titles on mobile */
+}
+
+/* Correction for .vertical-title class name (if it was mistyped in HTML earlier) */
+.verical-title { /* This is likely a typo in HTML, if corrected to vertical-title, this can be removed */
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+/* Ensure there are no conflicting styles if .vertical-title is the correct one */
+.secondSection .vertical-title { 
+    /* Styles already defined above, this is just a placeholder for potential conflict resolution */
+}
+
+```
