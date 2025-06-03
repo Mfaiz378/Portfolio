@@ -1,0 +1,39 @@
+{
+  "id": "headache-intent-001",
+  "name": "Headache",
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Headaches are no fun. Rest in a quiet, dark room if possible, and make sure you're hydrated."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I hear you have a headache. Sometimes a cold compress on your forehead or neck can provide some relief."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If your headache is severe, unusual, or if it's accompanied by other symptoms like fever, stiff neck, vision changes, or numbness, please consult a doctor right away."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

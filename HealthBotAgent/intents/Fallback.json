@@ -1,0 +1,39 @@
+{
+  "id": "fallback-intent-001",
+  "name": "Fallback",
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I'm sorry, I didn't quite understand that. Could you please rephrase?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hmm, I'm not sure I can help with that. Can you try asking something else related to your symptoms?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "My apologies, I'm still learning. Can you tell me about your symptoms or how you're feeling?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

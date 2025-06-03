@@ -1,0 +1,86 @@
+[
+  {
+    "id": "fallback-phrase-001",
+    "data": [
+      {
+        "text": "Can you book a flight?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fallback-phrase-002",
+    "data": [
+      {
+        "text": "What's the weather like?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fallback-phrase-003",
+    "data": [
+      {
+        "text": "Tell me a joke.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fallback-phrase-004",
+    "data": [
+      {
+        "text": "I like pizza.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fallback-phrase-005",
+    "data": [
+      {
+        "text": "asdfghjkl",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fallback-phrase-006",
+    "data": [
+      {
+        "text": "Why is the sky blue?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fallback-phrase-007",
+    "data": [
+      {
+        "text": "My car is making a weird noise.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "fever-intent-001",
+  "name": "Fever",
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I understand you have a fever. It's important to monitor your temperature. Have you taken it recently?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A fever can be uncomfortable. Make sure to drink plenty of fluids and rest."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, you're experiencing a fever. For high or persistent fevers, or if you have other concerning symptoms, it's always best to consult a doctor."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "greeting-intent-001",
+  "name": "Greeting",
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hello! How can I help you today?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi there! What can I do for you?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hey! How are you feeling?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

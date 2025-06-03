@@ -1,0 +1,52 @@
+[
+  {
+    "id": "cold-phrase-001",
+    "data": [ { "text": "I have a cold.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-002",
+    "data": [ { "text": "I think I caught a cold.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-003",
+    "data": [ { "text": "I'm feeling symptoms of a cold.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-004",
+    "data": [ { "text": "Runny nose and sore throat.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-005",
+    "data": [ { "text": "I'm sneezing a lot.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-006",
+    "data": [ { "text": "Feeling under the weather, might be a cold.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-007",
+    "data": [ { "text": "My nose is stuffy.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-008",
+    "data": [ { "text": "Got the sniffles.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-009",
+    "data": [ { "text": "Common cold.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cold-phrase-010",
+    "data": [ { "text": "How to treat a cold?", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "goodbye-intent-001",
+  "name": "Goodbye",
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Goodbye! I hope you feel better soon."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Take care! Don't hesitate to reach out if you need anything else in the future."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Alright, goodbye! I hope this information was helpful for you."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
