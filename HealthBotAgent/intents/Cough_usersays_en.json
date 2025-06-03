@@ -1,0 +1,52 @@
+[
+  {
+    "id": "cough-phrase-001",
+    "data": [ { "text": "I have a cough.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-002",
+    "data": [ { "text": "I can't stop coughing.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-003",
+    "data": [ { "text": "My throat is irritated and I'm coughing.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-004",
+    "data": [ { "text": "Persistent cough.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-005",
+    "data": [ { "text": "What can I do about this cough?", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-006",
+    "data": [ { "text": "Dry cough.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-007",
+    "data": [ { "text": "Coughing up phlegm.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-008",
+    "data": [ { "text": "A nagging cough.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-009",
+    "data": [ { "text": "My chest hurts when I cough.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "cough-phrase-010",
+    "data": [ { "text": "How to soothe a cough?", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  }
+]

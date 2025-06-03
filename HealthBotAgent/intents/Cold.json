@@ -1,0 +1,39 @@
+{
+  "id": "cold-intent-001",
+  "name": "Cold",
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It sounds like you might have a cold. Rest and hydration are key for recovery."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Colds can be quite bothersome. Remember to get plenty of rest and drink warm fluids like tea or broth."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, cold symptoms. Over-the-counter remedies might help with your discomfort, but if it worsens or doesn't improve after a week, consider seeing a doctor."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

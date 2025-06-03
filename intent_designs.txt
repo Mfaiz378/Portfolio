@@ -1,0 +1,124 @@
+## Intent Designs for Symptom Checker Bot
+
+**1. Greeting Intent**
+*   **Purpose:** To handle user greetings and initiate conversation.
+*   **Training Phrases:**
+    *   Hi
+    *   Hello
+    *   Hey there
+    *   Good morning
+    *   Good afternoon
+    *   What's up?
+    *   Greetings
+    *   Howdy
+    *   Yo
+    *   Hi bot
+*   **Responses:**
+    *   Hello! How can I help you today?
+    *   Hi there! What can I do for you?
+    *   Hey! How are you feeling?
+
+**2. Fallback Intent**
+*   **Purpose:** To handle user utterances that the bot doesn't understand.
+*   **Training Phrases (Examples of out-of-scope phrases):**
+    *   Can you book a flight?
+    *   What's the weather like?
+    *   Tell me a joke.
+    *   I like pizza.
+    *   asdfghjkl
+    *   Why is the sky blue?
+    *   My car is making a weird noise.
+*   **Responses:**
+    *   I'm sorry, I didn't quite understand that. Could you please rephrase?
+    *   Hmm, I'm not sure I can help with that. Can you try asking something else related to your symptoms?
+    *   My apologies, I'm still learning. Can you tell me about your symptoms or how you're feeling?
+
+**3. Fever Intent**
+*   **Purpose:** To identify when a user mentions having a fever.
+*   **Training Phrases:**
+    *   I have a fever.
+    *   My temperature is high.
+    *   I feel feverish.
+    *   I think I might have a fever.
+    *   Running a temperature.
+    *   My child has a fever.
+    *   What to do for a high fever?
+    *   Feeling hot and shivery.
+    *   Elevated body temperature.
+    *   Do I have a fever?
+*   **Responses:**
+    *   I understand you have a fever. It's important to monitor your temperature. Have you taken it recently?
+    *   A fever can be uncomfortable. Make sure to drink plenty of fluids and rest.
+    *   Okay, you're experiencing a fever. For high or persistent fevers, or if you have other concerning symptoms, it's always best to consult a doctor.
+
+**4. Cold Intent**
+*   **Purpose:** To identify when a user mentions having common cold symptoms.
+*   **Training Phrases:**
+    *   I have a cold.
+    *   I think I caught a cold.
+    *   I'm feeling symptoms of a cold.
+    *   Runny nose and sore throat.
+    *   I'm sneezing a lot.
+    *   Feeling under the weather, might be a cold.
+    *   My nose is stuffy.
+    *   Got the sniffles.
+    *   Common cold.
+    *   How to treat a cold?
+*   **Responses:**
+    *   It sounds like you might have a cold. Rest and hydration are key for recovery.
+    *   Colds can be quite bothersome. Remember to get plenty of rest and drink warm fluids like tea or broth.
+    *   Okay, cold symptoms. Over-the-counter remedies might help with your discomfort, but if it worsens or doesn't improve after a week, consider seeing a doctor.
+
+**5. Cough Intent**
+*   **Purpose:** To identify when a user mentions having a cough.
+*   **Training Phrases:**
+    *   I have a cough.
+    *   I can't stop coughing.
+    *   My throat is irritated and I'm coughing.
+    *   Persistent cough.
+    *   What can I do about this cough?
+    *   Dry cough.
+    *   Coughing up phlegm.
+    *   A nagging cough.
+    *   My chest hurts when I cough.
+    *   How to soothe a cough?
+*   **Responses:**
+    *   A cough can be really annoying. Sipping on warm liquids like tea with honey might help soothe your throat.
+    *   I understand you have a cough. Is it a dry cough or are you coughing anything up? Knowing more can help determine the best course of action.
+    *   For a persistent cough, especially if it's severe or you have other symptoms like shortness of breath, it's a good idea to see a doctor to rule out anything more serious.
+
+**6. Headache Intent**
+*   **Purpose:** To identify when a user mentions having a headache.
+*   **Training Phrases:**
+    *   I have a headache.
+    *   My head hurts.
+    *   I've got a throbbing headache.
+    *   Splitting headache.
+    *   What helps with a headache?
+    *   Pain in my temples.
+    *   Migraine.
+    *   Tension headache.
+    *   My head has been aching all day.
+    *   Need relief from a headache.
+*   **Responses:**
+    *   Headaches are no fun. Rest in a quiet, dark room if possible, and make sure you're hydrated.
+    *   I hear you have a headache. Sometimes a cold compress on your forehead or neck can provide some relief.
+    *   If your headache is severe, unusual, or if it's accompanied by other symptoms like fever, stiff neck, vision changes, or numbness, please consult a doctor right away.
+
+**7. Goodbye Intent**
+*   **Purpose:** To handle user farewells and end the conversation gracefully.
+*   **Training Phrases:**
+    *   Bye
+    *   Goodbye
+    *   See you later
+    *   Talk to you later
+    *   That's all for now
+    *   Thanks, bye!
+    *   Okay, I'm done.
+    *   Farewell
+    *   Catch you later
+    *   Exit
+*   **Responses:**
+    *   Goodbye! I hope you feel better soon.
+    *   Take care! Don't hesitate to reach out if you need anything else in the future.
+    *   Alright, goodbye! I hope this information was helpful for you.

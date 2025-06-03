@@ -1,0 +1,52 @@
+[
+  {
+    "id": "headache-phrase-001",
+    "data": [ { "text": "I have a headache.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-002",
+    "data": [ { "text": "My head hurts.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-003",
+    "data": [ { "text": "I've got a throbbing headache.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-004",
+    "data": [ { "text": "Splitting headache.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-005",
+    "data": [ { "text": "What helps with a headache?", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-006",
+    "data": [ { "text": "Pain in my temples.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-007",
+    "data": [ { "text": "Migraine.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-008",
+    "data": [ { "text": "Tension headache.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-009",
+    "data": [ { "text": "My head has been aching all day.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "headache-phrase-010",
+    "data": [ { "text": "Need relief from a headache.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  }
+]

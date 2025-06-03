@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fever-phrase-001",
+    "data": [ { "text": "I have a fever.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-002",
+    "data": [ { "text": "My temperature is high.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-003",
+    "data": [ { "text": "I feel feverish.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-004",
+    "data": [ { "text": "I think I might have a fever.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-005",
+    "data": [ { "text": "Running a temperature.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-006",
+    "data": [ { "text": "My child has a fever.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-007",
+    "data": [ { "text": "What to do for a high fever?", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-008",
+    "data": [ { "text": "Feeling hot and shivery.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-009",
+    "data": [ { "text": "Elevated body temperature.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "fever-phrase-010",
+    "data": [ { "text": "Do I have a fever?", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  }
+]

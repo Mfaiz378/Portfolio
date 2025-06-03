@@ -1,0 +1,52 @@
+[
+  {
+    "id": "goodbye-phrase-001",
+    "data": [ { "text": "Bye", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-002",
+    "data": [ { "text": "Goodbye", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-003",
+    "data": [ { "text": "See you later", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-004",
+    "data": [ { "text": "Talk to you later", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-005",
+    "data": [ { "text": "That's all for now", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-006",
+    "data": [ { "text": "Thanks, bye!", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-007",
+    "data": [ { "text": "Okay, I'm done.", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-008",
+    "data": [ { "text": "Farewell", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-009",
+    "data": [ { "text": "Catch you later", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  },
+  {
+    "id": "goodbye-phrase-010",
+    "data": [ { "text": "Exit", "userDefined": false } ],
+    "isTemplate": false, "count": 0, "updated": 0
+  }
+]

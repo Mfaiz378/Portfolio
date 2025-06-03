@@ -1,0 +1,39 @@
+{
+  "id": "cough-intent-001",
+  "name": "Cough",
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A cough can be really annoying. Sipping on warm liquids like tea with honey might help soothe your throat."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I understand you have a cough. Is it a dry cough or are you coughing anything up? Knowing more can help determine the best course of action."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "For a persistent cough, especially if it's severe or you have other symptoms like shortness of breath, it's a good idea to see a doctor to rule out anything more serious."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
