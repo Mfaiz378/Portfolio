@@ -1,0 +1,31 @@
+{
+  "name": "faiz-portfolio",
+  "version": "1.0.0",
+  "description": "Modern, responsive portfolio with light/dark theme and smooth animations",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "build": "echo 'This is a static site - no build needed'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "faiz",
+    "web-developer",
+    "full-stack",
+    "responsive",
+    "dark-mode",
+    "animations"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mfaiz378/Portfolio"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
